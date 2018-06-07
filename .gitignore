@@ -1,0 +1,8 @@
+!credenews/noticias/
+credenews/noticias/*
+!credenews/noticias/crede16.json
+!credenews/noticias/crede17.json
+!credenews/noticias/crede18.json
+composer.phar
+vendor/
+.env

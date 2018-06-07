@@ -1,0 +1,17 @@
+{
+    "require": {
+        "fabpot/goutte": "3.2.2",
+        "iron-summit-media/startbootstrap-sb-admin-2": "3.3.7"
+    },
+    "autoload": {
+        "psr-0": { "Automations\\Automate": "" }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "Automations\\Automate::build"
+        ],
+         "post-update-cmd": [
+            "Automations\\Automate::build"
+        ]
+    }
+}
