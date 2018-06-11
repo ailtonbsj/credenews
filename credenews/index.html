@@ -138,6 +138,7 @@
 
     </div>
     <!-- /#wrapper -->
+    <script src="../lib/mdn-polyfill/string.js"></script>
 
     <!-- jQuery -->
     <script src="../lib/jquery/jquery.min.js"></script>
@@ -193,7 +194,7 @@
     	if(!filterCredes[i-1]) continue;
 
       var credeNum = (i+'').padStart(2,'0');
-      var p = $.get(`./api.php?crede=${credeNum}`, function (res) {
+      var p = $.get("./api.php?crede="+credeNum, function (res) {
         var raw = JSON.parse(res);
         noticias = raw.noticias;
         crede = raw.crede;
@@ -257,7 +258,7 @@
       for (var index in allNews) {
         noticia = allNews[index];
         var tmp = tmpNoticia[0].content;
-        tmp.querySelector(".panel-text").innerHTML = `<strong>${noticia.data} - Crede ${noticia.crede} -</strong> ${noticia.text}`;
+        tmp.querySelector(".panel-text").innerHTML = "<strong>"+noticia.data+" - Crede "+noticia.crede+" -</strong> "+noticia.text;
         if(noticia.data == now){
           $(tmp.querySelector(".panel-body")).addClass('alert-success');
         } else {
