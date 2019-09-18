@@ -20,7 +20,7 @@ if (isset($_GET['crede'])) {
 		}
 	}
 
-	$base = "http://www.crede{$crede}.seduc.ce.gov.br";
+	$base = "http://crede{$crede}.seduc.ce.gov.br";
 	initClient(null);
 	$crawler = simpleGet('/');
 
