@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Name=Crede News
+Exec=sensible-browser http://ailtonbsj.herokuapp.com/credenews/
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=credenews
+Categories=GNOME;GTK;Network;WebBrowser;
+Actions=NewWindow;NewPrivateWindow;
