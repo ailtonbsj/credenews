@@ -1,7 +1,7 @@
 [Desktop Entry]
 Version=1.0
 Name=Crede News
-Exec=sensible-browser http://ailtonbsj.herokuapp.com/credenews/
+Exec=xdg-open https://ailtonbsj.herokuapp.com/credenews/
 Terminal=false
 X-MultipleArgs=false
 Type=Application

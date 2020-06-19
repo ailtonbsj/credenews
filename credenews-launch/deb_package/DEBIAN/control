@@ -1,10 +1,11 @@
 Package: credenews
-Version: 0.0.1
+Version: 0.0.2
 Installed-Size: 24
 Maintainer: ailtonbsj <ailton.ifce@gmail.com>
 Section: utils
 Architecture: all
 Priority: optional
-Homepage: http://ailtonbsj.herokuapp.com/credenews/
+Depends: xdg-utils
+Homepage: https://ailtonbsj.herokuapp.com/credenews/
 Description: Atalho para o sistema Crede News.
  Um lançador utilizando o navegador nativo para abrir o sistema centralizador de noticias CredeNews.
