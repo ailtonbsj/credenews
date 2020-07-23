@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component type="desktop">
+  <id>com.github.ailtonbsj.credenews.desktop</id>
+  <project_license>GPL-2.0+</project_license>
+  <name>CredeNews</name>
+  <name xml:lang="pt-BR">CredeNews</name>
+  <summary>News from CREDE portals of SEDUC Ceará</summary>
+  <summary xml:lang="pt-BR">Noticias dos portais CREDE da SEDUC Ceará</summary>
+  <description>
+    <p>The CredeNews application helps unemployed teachers in Ceará to keep an eye on the news and temporary notices from the education coordinators.</p>
+    <p xml:lang="pt-BR">O aplicativo CredeNews ajuda os professores desempregados do Ceará a ficarem de olho nas notícias e editais temporários das coordenadorias de educação.</p>
+  </description>
+  <url type="homepage">https://github.com/ailtonbsj/credenews/</url>
+  <url type="bugtracker">https://github.com/ailtonbsj/credenews/issues</url>
+  <url type="help">https://github.com/ailtonbsj/credenews/wiki</url>
+  <url type="donation">https://www.vakinha.com.br/vaquinha/ajude-a-manter-o-app-credenews-rodando</url>
+  <screenshots>
+    <screenshot type="default">
+      <caption>List of latest news from CREDEs</caption>
+      <caption xml:lang="pt-BR">Lista de últimas noticias das CREDEs</caption>
+      <image>https://ailtonbsj.github.io/portfolio/projects/credenews/0.png</image>
+    </screenshot>
+  </screenshots>
+  <project_group>WinuniX</project_group>
+  <provides>
+    <binary>credenews</binary>
+  </provides>
+  <releases>
+    <release version="0.0.3" date="2020-07-23"/>
+  </releases>
+</component>
+

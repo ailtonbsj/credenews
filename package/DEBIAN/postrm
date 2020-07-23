@@ -7,7 +7,7 @@ grep -v 'cups\|syslog' | cut -d ':' -f 1 > /tmp/homes.list
 function runByUsers {
 	# $1 is default folder of user
 	# $2 is name of user
-	rm -rf $1/Desktop/credenews.desktop
+	rm -rf $1/Desktop/com.github.ailtonbsj.credenews.desktop
 	if [ "$1" == "/etc/skel" ]; then
 		rmdir $1/Desktop/ 2>/dev/null
 	fi

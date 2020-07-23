@@ -6,3 +6,4 @@ credenews/noticias/*
 composer.phar
 vendor/
 .env
+*.deb

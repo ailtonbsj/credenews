@@ -1,0 +1,14 @@
+Package: credenews
+Version: 0.0.3
+Installed-Size: 8
+Maintainer: ailtonbsj <ailton.ifce@gmail.com>
+Section: utils
+Architecture: all
+Priority: optional
+Depends: xdg-utils
+Homepage: https://github.com/ailtonbsj/credenews/
+Description: Noticias dos portais CREDE da SEDUC Ceará
+ O aplicativo CredeNews ajuda os professores desempregados do Ceará a ficarem de olho nas notícias e editais temporários das coordenadorias de educação.
+ .
+ The CredeNews application helps unemployed teachers in Ceará to keep an eye on the news and temporary notices from the education coordinators.
+

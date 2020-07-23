@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Name=CredeNews
+Name[pt_BR]=CredeNews
+Comment=News from CREDE portals of SEDUC Ceará
+Comment[pt_BR]=Noticias dos portais CREDE da SEDUC Ceará
+Exec=credenews %u
+Icon=credenews
+Categories=GNOME;GTK;Network;WebBrowser;

@@ -20,10 +20,8 @@ function runByUsers {
 	# $1 is default folder of user
 	# $2 is name of user
 	cd $1
- 	# geraShort /usr/share/applications/credenews.desktop /usr/share/applications/credenews.desktop \
- 	# > $1/Desktop/credenews.desktop
 	mkdir -p $1/Desktop/
-	cp /usr/share/applications/credenews.desktop $1/Desktop/credenews.desktop
+	cp /usr/share/applications/com.github.ailtonbsj.credenews.desktop $1/Desktop/com.github.ailtonbsj.credenews.desktop
 }
 
 while read USUARIO; do
