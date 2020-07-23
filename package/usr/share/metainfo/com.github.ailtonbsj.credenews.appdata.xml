@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component type="desktop">
   <id>com.github.ailtonbsj.credenews.desktop</id>
+  <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-2.0+</project_license>
   <name>CredeNews</name>
   <name xml:lang="pt-BR">CredeNews</name>
@@ -28,5 +29,5 @@
   <releases>
     <release version="0.0.3" date="2020-07-23"/>
   </releases>
+  <content_rating type="oars-1.0" />
 </component>
-
